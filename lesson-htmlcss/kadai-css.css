@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* ヘッダーエリア */
+header {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #ffcccc;
+}
+
+/* メインエリア全体 */
+#wrapper {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/*コンテンツエリア*/
+#main {
+    width: 700px;
+    float: left;
+    background-color: #ccffcc;
+}
+
+/* サイドバー */
+#menu {
+    width: 300px;
+    float: right;
+    background-color: #ccccff;
+}
+
+/* フッター */
+
+footer {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #ffccff;
+}
+    
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
